@@ -1,6 +1,6 @@
- **# Data Structures and Algorithms**
+ # Data Structures and Algorithms**
 
-This repository is a comprehensive collection of Data Structures and Algorithms implementations in C++, along with a variety of practice problems and solutions. It's designed to be a valuable resource for both learning and practicing essential concepts in computer science.
+## This repository is a comprehensive collection of Data Structures and Algorithms implementations in C++, along with a variety of practice problems and solutions. It's designed to be a valuable resource for both learning and practicing essential concepts in computer science.
 
 **Contents**
 
