@@ -1,0 +1,1 @@
+{"name":"Local: aggressive_cows","url":"c:\\Users\\rajpr\\Documents\\Codes and Notes\\Binary Search\\aggressive_cows.cpp","tests":[{"id":1650966536164,"input":"5 3\n1 2 8 4 9","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\rajpr\\Documents\\Codes and Notes\\Binary Search\\aggressive_cows.cpp","group":"local","local":true}

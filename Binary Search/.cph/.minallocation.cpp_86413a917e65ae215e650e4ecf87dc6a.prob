@@ -1,0 +1,1 @@
+{"name":"Local: minallocation","url":"c:\\Users\\rajpr\\Documents\\Codes and Notes\\Binary Search\\minallocation.cpp","tests":[{"id":1649170550247,"input":"1\n4 \n12 34 67 90\n2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\rajpr\\Documents\\Codes and Notes\\Binary Search\\minallocation.cpp","group":"local","local":true}

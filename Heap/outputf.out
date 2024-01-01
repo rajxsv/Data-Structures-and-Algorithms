@@ -1,0 +1,71 @@
+-1 10 20 5 6 1 8 9 4 60 80 
+calling 5
+Heaping index 5 with children 80 1869762652
+swapped 80 , 1
+Heaping index 10 with children 14842208 14811328
+calling 4
+Heaping index 4 with children 4 60
+swapped 60 , 6
+Heaping index 9 with children -1493172057 3966
+calling 3
+Heaping index 3 with children 8 9
+swapped 9 , 5
+Heaping index 7 with children 14846312 14811328
+calling 2
+Heaping index 2 with children 60 80
+swapped 80 , 20
+Heaping index 5 with children 1 1869762652
+calling 1
+Heaping index 1 with children 80 9
+swapped 80 , 10
+Heaping index 2 with children 60 20
+swapped 60 , 10
+Heaping index 4 with children 4 6
+-1 80 60 9 10 20 8 5 4 6 1 
+calling 5
+Heaping index 5 with children 1 1869762652
+calling 4
+Heaping index 4 with children 4 6
+calling 3
+Heaping index 3 with children 8 5
+calling 2
+Heaping index 2 with children 10 20
+calling 1
+Heaping index 1 with children 60 9
+Heaping index 1 with children 60 9
+swapped 60 , 1
+Heaping index 2 with children 10 20
+swapped 20 , 1
+Heaping index 5 with children 80 1869762652
+Heaping index 1 with children 20 9
+swapped 20 , 6
+Heaping index 2 with children 10 1
+swapped 10 , 6
+Heaping index 4 with children 4 60
+Heaping index 1 with children 10 9
+swapped 10 , 4
+Heaping index 2 with children 6 1
+swapped 6 , 4
+Heaping index 4 with children 20 60
+Heaping index 1 with children 6 9
+swapped 9 , 5
+Heaping index 3 with children 8 10
+swapped 8 , 5
+Heaping index 6 with children -1851897452 3962
+Heaping index 1 with children 6 8
+swapped 8 , 5
+Heaping index 3 with children 9 10
+Heaping index 1 with children 6 5
+swapped 6 , 1
+Heaping index 2 with children 4 8
+swapped 4 , 1
+Heaping index 4 with children 20 60
+Heaping index 1 with children 4 5
+swapped 5 , 1
+Heaping index 3 with children 9 10
+Heaping index 1 with children 4 5
+swapped 4 , 1
+Heaping index 2 with children 6 8
+Heaping index 1 with children 4 5
+Heaping index 1 with children 4 5
+-1 1 4 5 6 8 9 10 20 60 80 

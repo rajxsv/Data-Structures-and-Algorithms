@@ -1,0 +1,1 @@
+{"name":"Local: balancedExpression","url":"x:\\Codes and Notes\\Deque\\balancedExpression.cpp","tests":[{"id":1675487290977,"input":"2\n(((a+(b))+(c+d)))\n((a+(b))+(c+d))","output":"Duplicate\nNot Duplicates"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"x:\\Codes and Notes\\Deque\\balancedExpression.cpp","group":"local","local":true}

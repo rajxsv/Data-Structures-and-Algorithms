@@ -1,0 +1,1 @@
+{"name":"Local: DeanDistance","url":"x:\\Codes and Notes\\Heap\\DeanDistance.cpp","tests":[{"id":1677733351498,"input":"9 3\n1 10 10\n1 9 9\n1 -8 -8\n2\n1 7 7\n2\n1 6 6 \n1 5 5\n2","output":"200\n162\n98"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"x:\\Codes and Notes\\Heap\\DeanDistance.cpp","group":"local","local":true}

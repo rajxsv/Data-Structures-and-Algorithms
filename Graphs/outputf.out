@@ -1,0 +1,6 @@
+Agra->(Bhopal,2) (Delhi,1) 
+Amritsar->(Delhi,1) (Jaipur,4) 
+Delhi->(Amritsar,1) (Jaipur,2) (Agra,1) 
+Jaipur->(Amritsar,4) (Delhi,2) (Mumbai,8) 
+Bhopal->(Agra,2) (Mumbai,3) 
+Mumbai->(Jaipur,8) (Bhopal,3) 

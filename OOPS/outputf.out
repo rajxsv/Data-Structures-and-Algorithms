@@ -1,0 +1,65 @@
+Insider Constructor function
+Name = Swift
+model_no = 1
+price = 123124
+tire =Grade 2
+
+After setting price
+
+Name = Swift
+model_no = 1
+price = 50000
+tire =Grade 2
+48
+48
+
+
+Name = Audi
+model_no = 321
+price = 696969
+tire =Grade 1
+Name = Benz
+model_no = 123
+price = 123
+tire =Grade 1
+
+
+Car no3 
+Name = Benz
+model_no = 123
+price = 123
+tire =Grade 1
+
+
+Car no4 
+Name = Benz
+model_no = 123
+price = 123
+tire =Grade 1
+Name = Benz
+model_no = 123
+price = 123
+tire =Grade 1
+Name = Benz
+model_no = 123
+price = 123
+tire =Grade X
+Name = Benz
+model_no = 123
+price = 123
+tire =Grade 1
+
+
+Insider Constructor function
+Inside copy assignment operator
+Name = Swift
+model_no = 1
+price = 50000
+tire =Grade 2
+Destructor fn call Swift
+Destructor fn call Benz
+Destructor fn call Benz
+Destructor fn call Benz
+Destructor fn call Audi
+Destructor fn call Swift
+Destructor fn call 
