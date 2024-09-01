@@ -36,7 +36,7 @@ private:
 	}
 
 public:
-	Heap(bool mH=true){
+	Heap(bool mH=true) {
 		//Block 0th position
 		v.push_back(-1);
 		minH = mH;

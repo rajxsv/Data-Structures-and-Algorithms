@@ -1,5 +1,4 @@
-#include<iostream>
-#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 
 class DS{
@@ -29,20 +28,19 @@ public:
         int ultimateParent_v = findPar(v);
 
         if(size[ultimateParent_u] > size[ultimateParent_v]){
-            parent[ultimateParent_v] = ultimateParent_u;
-            size[ultimateParent_u]+=size[ultimateParent_v];
+            parent[ultimateParent_v] = ultimateParent_u; // shote veeer da parent vadda veer
+            size[ultimateParent_u]+=size[ultimateParent_v];  // parent veer da size increase krgya 
         }else{
             parent[ultimateParent_u] = ultimateParent_v;
             size[ultimateParent_v]+=size[ultimateParent_u];
         }
     }
-
 };
 
 int main(){
 
     DS* ds1 = new DS(5);
-
+    
     ds1->unionbySize(1,2);
     ds1->unionbySize(2,3);
     ds1->unionbySize(4,5);

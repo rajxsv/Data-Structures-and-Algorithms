@@ -14,11 +14,12 @@ pair <int,int> find(vector<int> &v , int n){
 	for (int i = 1; i < n; ++i){
 		myxor ^= v[i];
 	}
-	
+	// 1 2 3 
 	int index = -1,i = 0;
 
 	//finding where is the first set bit
-	for(int i = 0; i <= 64; ++i)S{
+	// 10011011010 & 0000000001
+	for(int i = 0; i <= 64; ++i){
 
 		if(myxor&1)
 		{

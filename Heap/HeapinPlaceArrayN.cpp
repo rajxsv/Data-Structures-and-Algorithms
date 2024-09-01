@@ -10,7 +10,7 @@ void heapify(vector<int> &v,int i,int size){
 		int minIdx = i;
 
 		cout << "Heaping index "<<i << " with children " << v[left] <<" "<<v[right] << endl;
-
+		
 		if(left<size && v[minIdx]<v[left]){
 			minIdx = left;
 		}
