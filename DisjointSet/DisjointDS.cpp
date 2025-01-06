@@ -61,3 +61,83 @@ int main(){
 
     return 0;
 }
+
+class DSU {
+private:
+    vector<int> parent, rank;
+    int count;
+
+public:
+    DSU(int size) {
+        parent.resize(size,-1);  // this is a nice trick, no land, no parent not even themselves
+        rank.resize(size,0);
+        count=0;
+    }
+
+    void addLand(int x) {
+        if(parent[x]>=0) return;  // already land, do nothing
+        parent[x]=x;
+        count++;
+    }
+    
+    bool isLand(int x) return parent[x]>=0;
+
+    int numberOfIslands() return count;
+
+    int find(int x){
+        if(parent[x]==x) return x;
+        return parent[x] = find(parent[x]);  
+    }
+
+    void unionSize(int x, int y) {
+        int parX = find(x);
+        int parY = find(y);
+
+        if(parX == parY) return;
+
+        if(rank[parX]>rank[parY]) {
+            parent[parY] = parX;
+        } else if (rank[parY]>rank[parX]) {
+            parent[parX] = parY;
+        } else {
+            parent[parX] = parY;
+            rank[parX]++;
+        }
+        count--;
+    }
+};
+
+
+
+class DSU {
+private:
+    vector<int> par, rank;
+
+public:
+    DSU(int size) {
+        par.resize(size);
+        rank.resize(size,0);
+        for(int i=0; i<size; i++) par[i]=i;
+    }
+
+    int find(int x) {
+        if(par[x]==x) return x;
+        return find(par[x]);
+    }
+
+    void unionSize(int x, int y) {
+        int parX = find(x);
+        int parY = find(y);
+
+        if(parX == parY) return;
+
+        if(rank[parX] < rank[parY]) {
+            par[parX] = parY;
+        } else if(rank[parY] < rank[parX]) {
+            par[parY] = parX;
+        } else {
+            par[parY] = parX;
+            rank[parX]++;
+        }
+    }
+};

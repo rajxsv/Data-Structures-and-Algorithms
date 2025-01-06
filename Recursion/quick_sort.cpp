@@ -6,7 +6,7 @@ int pivot(int *arr,int s , int e)
 	// do not initialise a var for maintaining the pivot as swapping
 	// them will not work
 	// pointers keeping track of smaller and larger parts
-	
+		
 	int i = s-1;
 	int j = s;
 

@@ -159,6 +159,7 @@ public:
 
 		return NULL;
 	}
+
 	void erase(string key){
 		int idx = hashfn(key);
 

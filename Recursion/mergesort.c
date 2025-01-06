@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void merge(int* arr , int s , int e,int n)
 {
 	int mid = (s+e)/2;
@@ -35,7 +36,7 @@ void merge_sort(int* arr,int s,int e,int n){
 	int mid = (s+e)/2;
 
 	merge_sort(arr,mid+1,e,n);
-	merge_sort(arr,s,mid,n);
+	merge_sort(arr,s,mid,n);	
 	merge(arr,s,e,n);
 }
 
